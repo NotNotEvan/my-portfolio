@@ -1,10 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  mode: "jit",
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     "./node_modules/@shadcn/ui/dist/**/*.{js,ts,jsx,tsx}",
   ],
+  purge: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
