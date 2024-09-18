@@ -1,6 +1,8 @@
 {
   "singleQuote": true,
   "jsxSingleQuote": true,
+  "singleAttributePerLine": true,
+  "arrowParens": "always",
   "bracketSpacing": true,
   "trailingComma": "none",
   "quoteProps": "as-needed",

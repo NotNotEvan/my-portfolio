@@ -5,7 +5,12 @@ const Navbar: React.FC = () => {
   return (
     <nav className='fixed w-full bg-secondary shadow z-50'>
       <div className='container mx-auto px-6 py-4 flex justify-between items-center text-primary'>
-        <Link to='home' smooth={true} duration={500} className='text-2xl font-bold cursor-pointer'>
+        <Link
+          to='home'
+          smooth={true}
+          duration={500}
+          className='text-2xl font-bold cursor-pointer'
+        >
           EL
         </Link>
         <div className='flex space-x-6'>

@@ -22,10 +22,17 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section id='contact' className='py-20 bg-secondary text-primary'>
+    <section
+      id='contact'
+      className='py-20 bg-secondary text-primary'
+    >
       <div className='container mx-auto px-6'>
         <h2 className='text-4xl font-bold mb-6'>Contact Me</h2>
-        <form ref={form} onSubmit={sendEmail} className='space-y-6 max-w-lg mx-auto'>
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          className='space-y-6 max-w-lg mx-auto'
+        >
           <div>
             <label className='block text-lg font-medium'>Name</label>
             <input
@@ -53,7 +60,10 @@ const Contact: React.FC = () => {
               required
             />
           </div>
-          <button type='submit' className='w-full bg-primary text-secondary py-2 rounded-md hover:bg-primary[300]'>
+          <button
+            type='submit'
+            className='w-full bg-primary text-secondary py-2 rounded-md hover:bg-primary[300]'
+          >
             Send Message
           </button>
         </form>
